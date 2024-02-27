@@ -1,0 +1,193 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header,
+.hero {
+    background: #1F2937;
+}
+.header .container .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+h1,
+h2, 
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+    line-height: 20px;
+}
+button {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul .options {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 10px;
+}
+
+.list-options {
+    display: flex;
+    
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.hero .container {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.hero-left {
+    max-width: 400px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-second-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-color: #3882F6;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10%;
+}
+
+.row-label {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 20px;
+}
+
+.item {
+    width: 125px;
+    height: 125px;
+    border-radius: 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    width: 125px;
+    height: 70px;
+    text-align: center;
+}
+
+.quote .container {
+    background: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.review {
+    width: 50%;
+    align-self: center;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.customer {
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 250px;
+    font-weight: 700;
+}
+
+.testimonial {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.action .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #3882F6;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.action-button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    padding: 3px 10px;
+    border-radius: 5%;
+}
+
+.footer {
+    background: #1F2937;
+    text-align: center;
+    padding: 20px;
+    color: #F9FAF8;
+}
+
+.register {
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.register-info {
+    color: #F9FAF8;
+    font-size: 13px;
+    padding-left: 10px;
+}
